@@ -1,0 +1,13 @@
+@media print {
+  body > div:last-child,
+  .nl.nm.nn.no.np.l.bx,
+  .am.q.r.s.dt.u.du.w.dv.i.d.y.z,
+  .p.q.r.ab.ac > .h.k.w.ea.eb,
+  .p.q.r.ab.ac > .ec.ab,
+  .p.q.r.ab.ac > .l,
+  .hw.gr.t.hy.gs.v.pg.gt.dv.ph.gu.pi.pj.gv.pk.ab.ed,
+  .ab.cp.hv.hw.hx.hy.hz.ia.ib.ic.id.ie.if.ig.ih.ii.ij.ik,
+  .p.q.r.ab.ac > .ab.q.ae > .ax.h {
+      display: none;
+  }
+}
