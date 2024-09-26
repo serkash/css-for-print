@@ -1,0 +1,37 @@
+@media print {
+  body .article-container,
+  body[data-video-layout="false"] .article-container,
+  body .article-container > article,
+  #content,
+  #content_above,
+  .page_content,
+  main {
+      max-width: 100%;
+      width: 100%;
+  }
+  .nav_main_wrapper > .bottom,
+  .nav_trending,
+  .page_content .disclaimer,
+  .breadcrumbs,
+  .after_article,
+  .app_footer,
+  .advert_container,
+  .read-next,
+  .article_footer,
+  .user_profile,
+  .comments {
+      display: none;
+  }
+  #content_above {
+      padding-right: 0 !important;
+  }
+  .nav_main_wrapper .top {
+      border-bottom: 1px solid #e1e9ed;
+      padding-bottom: 16px;
+  }
+  .page_content figure,
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+}
