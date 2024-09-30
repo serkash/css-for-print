@@ -4,9 +4,10 @@
   .article-page [data-cy="article-video"] + br,
   #pit-below-all-content,
   [data-cy="objectcard-view-trigger"],
-  .article-author:not(.underlined),
+  .article-author,
   .three-column,
-  footer[data-cy="footer"] {
+  footer[data-cy="footer"],
+  .image-container {
       display: none !important;
   }
   #page {
