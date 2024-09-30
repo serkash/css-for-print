@@ -1,0 +1,25 @@
+@media print {
+  .sidebar,
+  .article-page [data-cy="article-video"],
+  .article-page [data-cy="article-video"] + br,
+  #pit-below-all-content,
+  [data-cy="objectcard-view-trigger"],
+  .article-author,
+  .three-column,
+  footer[data-cy="footer"] {
+      display: none !important;
+  }
+  #page {
+      margin-left: 0 !important;
+  }
+  .article-page output.box-wrapper figure span {
+      display: block;
+  }
+
+  .article-page output.box-wrapper figure span img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+  }
+}
