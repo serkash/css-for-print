@@ -4,7 +4,7 @@
   .article-page [data-cy="article-video"] + br,
   #pit-below-all-content,
   [data-cy="objectcard-view-trigger"],
-  .article-author,
+  .article-author:not(.underlined),
   .three-column,
   footer[data-cy="footer"] {
       display: none !important;
