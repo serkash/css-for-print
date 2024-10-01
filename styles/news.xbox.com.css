@@ -1,0 +1,38 @@
+@media print {
+  #page-header,
+  .xbox-legacy-header__youtubePlayBtn,
+  .post-tags__list,
+  [id^="msp"],
+  .curated-content-panel,
+  #uhf-footer {
+      display: none !important;
+  }
+  
+  .post__author {
+      flex-direction: column;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  
+  .post__author .post__date {
+      margin-top: 0;
+      padding-left: 0;
+  }
+  
+  .wp-block-column.flex-basis-50.push--25.column--content {
+      margin-left: 0;
+  }
+  
+  .wp-block-image {
+      margin-bottom: 20px;
+  }
+  
+  .wp-block-columns {
+      width: 100%;
+  }
+  
+  [class^="xwsrc-block-content"] .wp-block-columns .wp-block-column,
+  [class*=" xwsrc-block-content"] .wp-block-columns .wp-block-column {
+      padding: 0;
+  }
+}
