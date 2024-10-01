@@ -1,0 +1,41 @@
+@media print {
+  #navbar,
+  header,
+  .column-right-outer,
+  .post-icons,
+  .comment-actions,
+  .thread-toggle,
+  .continue {
+      display: none;
+  }
+  
+  body {
+      min-width: auto;
+      padding: 0;
+  }
+
+  .content-inner,
+  .post-footer {
+      padding: 0;
+  }
+
+  .main-inner {
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+
+  .main-inner .columns {
+      padding-right: 0;
+  }
+  
+  .body-fauxcolumns,
+  .content-fauxcolumns {
+      position: relative;
+  }
+  
+  .content-outer {
+      min-width: auto;
+      max-width: 100%;
+      box-shadow: none;
+  }
+}
