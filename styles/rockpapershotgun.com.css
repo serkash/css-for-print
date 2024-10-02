@@ -1,0 +1,54 @@
+@media print {
+  .app_header,
+  .disclaimer,
+  .breadcrumbs,
+  .mypop-header-wrapper,
+  .comments,
+  body[data-version="hd"] .sidebar,
+  .poll_wrapper,
+  .read-next,
+  .article_footer,
+  .after_article,
+  .app_footer,
+  .button.video,
+  .recommendation.aside {
+      display: none;
+  }
+  
+  body[data-version="hd"][data-ads="true"][data-video-layout="false"] #content_above {
+      padding-right: 0;
+  }
+  
+  body[data-version="hd"] .page_content {
+      padding: 0;
+  }
+  
+  .article-styling {
+      margin: 0;
+      max-width: 100%;
+  }
+
+  .article-styling img {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      page-break-before: auto;
+      page-break-after: auto;
+      page-break-inside: avoid;
+  }
+
+  #content,
+  body[data-video-layout="false"] .article-container,
+  .article_header .headline_details {
+      max-width: 100%;
+  }
+  
+  .article-styling figure.right:not(.left) {
+      margin-left: 0;
+  }
+
+  p {
+      font-size: 1.5rem
+  }
+}
