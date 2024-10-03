@@ -1,16 +1,20 @@
 @media print {
-    .post-ufi,
-    .subscribe-widget,
-    #discussion,
-    .pencraft.pc-display-flex.pc-paddingTop-16.pc-paddingBottom-16.pc-reset._border-top-detail-themed_f54um_47 {
-        display: none;
-    }
+  .post-ufi,
+  .subscribe-widget,
+  #discussion,
+  .publication-footer,
+  .pencraft.pc-display-flex.pc-paddingTop-16.pc-paddingBottom-16.pc-reset._border-top-detail-themed_f54um_47 {
+    display: none;
+  }
 
-    .image2-inset,
-    .image2-inset picture,
-    .image2-inset picture img {
-        max-width: 100%;
-        width: 100%;
-        height: 100%;
-    }
+  .image2-inset,
+  .image2-inset picture,
+  .image2-inset picture img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    page-break-before: auto;
+    page-break-after: auto;
+    page-break-inside: avoid;
+  }
 }
