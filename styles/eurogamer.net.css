@@ -9,8 +9,9 @@
       max-width: 100%;
       width: 100%;
   }
-  .nav_main_wrapper > .bottom,
+  .nav_main_wrapper,
   .nav_trending,
+  .nav_main,
   .page_content .disclaimer,
   .breadcrumbs,
   .after_article,
@@ -19,8 +20,22 @@
   .read-next,
   .article_footer,
   .user_profile,
-  .comments {
+  .comments,
+  .desktop_mpu,
+  .recommendation,
+  .video_wrapper.youtube,
+  .video_wrapper.youtube + figcaption,
+  .poll_wrapper,
+  .mypop-header-wrapper,
+  [class^="commercial-slot"],
+  [id^="primis"] {
       display: none;
+  }
+  .disclaimer + .article-container {
+      padding-top: 0;
+  }
+  #content {
+      padding: 0;
   }
   #content_above {
       padding-right: 0 !important;
@@ -29,9 +44,30 @@
       border-bottom: 1px solid #e1e9ed;
       padding-bottom: 16px;
   }
+  .page_content figure > a {
+      display: block;
+  }
   .page_content figure,
+  .page_content .content_image,
   img {
+      width: 100%;
+      max-width: 100% !important;
+      height: auto !important;
+      page-break-before: auto;
+      page-break-after: auto;
+      page-break-inside: avoid;
+  }
+  .article-styling {
+      font-size: 30px;
+  }
+  .embed_wrapper[data-domain="twitter.com"] {
+      justify-content: flex-start;
+  }
+  .twitter-tweet > p {
+      font-size: 2.5rem;
+  }
+  .article-styling .instagram-media,
+  .article-styling .twitter-tweet {
       max-width: 100%;
-      height: auto;
   }
 }
