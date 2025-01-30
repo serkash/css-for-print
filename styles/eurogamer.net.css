@@ -6,8 +6,8 @@
   #content_above,
   .page_content,
   main {
-      max-width: 100%;
-      width: 100%;
+    max-width: 100%;
+    width: 100%;
   }
   .nav_main_wrapper,
   .nav_trending,
@@ -28,46 +28,60 @@
   .poll_wrapper,
   .mypop-header-wrapper,
   [class^="commercial-slot"],
-  [id^="primis"] {
-      display: none;
+  [id^="primis"],
+  .bbvms_sticky_wrapper {
+    display: none;
   }
   .disclaimer + .article-container {
-      padding-top: 0;
+    padding-top: 0;
   }
   #content {
-      padding: 0;
+    padding: 0;
   }
   #content_above {
-      padding-right: 0 !important;
+    padding-right: 0 !important;
   }
   .nav_main_wrapper .top {
-      border-bottom: 1px solid #e1e9ed;
-      padding-bottom: 16px;
+    border-bottom: 1px solid #e1e9ed;
+    padding-bottom: 16px;
   }
   .page_content figure > a {
-      display: block;
+    display: block;
   }
   .page_content figure,
   .page_content .content_image,
   img {
-      width: 100%;
-      max-width: 100% !important;
-      height: auto !important;
-      page-break-before: auto;
-      page-break-after: auto;
-      page-break-inside: avoid;
+    width: 100%;
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-before: auto;
+    page-break-after: auto;
+    page-break-inside: avoid;
   }
-  .article-styling {
-      font-size: 30px;
+  .article-styling,
+  .article-styling figure figcaption {
+    font-size: 30px;
+  }
+  .article-styling figure figcaption {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 24px;
   }
   .embed_wrapper[data-domain="twitter.com"] {
-      justify-content: flex-start;
+    justify-content: flex-start;
   }
   .twitter-tweet > p {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
   .article-styling .instagram-media,
   .article-styling .twitter-tweet {
-      max-width: 100%;
+    max-width: 100%;
+  }
+  .metadata {
+    margin: 36px 0 24px;    
+  }
+  .headline_asset .attribution,
+  .metadata .text {
+    font-size: 30px;
   }
 }
