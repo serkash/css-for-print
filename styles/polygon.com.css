@@ -1,0 +1,20 @@
+@media print {
+  .duet--navigation--sticky-nav,
+  ._1rw1jth0,
+  .yksbst0,
+  .duet--article--share-buttons,
+  .m-ad__dynamic_ad_unit,
+  #ot-sdk-btn-floating {
+      display: none;
+  }
+
+  ._3chxa13 {
+      overflow: hidden;
+  }
+
+  img {
+      page-break-before: auto;
+      page-break-after: auto;
+      page-break-inside: avoid;
+  }
+}
